@@ -1,3 +1,4 @@
+		; Program for addition of two numbers
 DATA_SEG 	SEGMENT
 	N1	DW 1000H
 	N2	DW 2000H
