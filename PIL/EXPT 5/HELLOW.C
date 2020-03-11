@@ -31,7 +31,7 @@ void main()
 	else
 	   printf("\n\tError opening file!!!!");
 
-	inregs.h.ah=0x40; /* read file */
+	inregs.h.ah=0x40; /* write file */
 	inregs.x.bx=outfilehandle;
 	inregs.x.cx=0x04;
 	inregs.x.dx=FP_OFF(str1);
