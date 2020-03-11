@@ -40,7 +40,7 @@ void main()
 
 
 
-	inregs.h.ah=0x40; /* close file */
+	inregs.h.ah=0x3e; /* close file */
 	inregs.x.bx=outfilehandle;
 	int86x(0x21,&inregs,&outregs,&sregs);
 
